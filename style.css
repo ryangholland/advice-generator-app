@@ -1,0 +1,26 @@
+:root {
+  --clr-pri-light-cyan-hsl: 193, 38%, 86%;
+  --clr-pri-neon-green-hsl: 150, 100%, 66%;
+
+  --clr-neu-grayish-blue-hsl: 217, 19%, 38%;
+  --clr-neu-dark-grayish-blue-hsl: 217, 19%, 24%;
+  --clr-neu-dark-blue-hsl: 218, 23%, 16%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+  font-family: "Manrope", sans-serif;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
