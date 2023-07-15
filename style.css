@@ -70,14 +70,14 @@ p {
   margin-top: -2rem;
 }
 
-.dice-btn:hover {
-  cursor: pointer;
-  box-shadow: 0 0 2.5rem hsl(var(--clr-pri-neon-green-hsl));
-}
-
 @media (min-width: 600px) {
-    .advice-card {
-        max-width: 560px;
-        padding: 3rem 2.5rem 5rem 2.5rem;
-    }
+  .advice-card {
+    max-width: 560px;
+    padding: 3rem 2.5rem 5rem 2.5rem;
+  }
+
+  .dice-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2.5rem hsl(var(--clr-pri-neon-green-hsl));
+  }
 }
